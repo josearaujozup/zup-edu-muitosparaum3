@@ -18,6 +18,10 @@ public class AvaliacaoDTO {
 		this.texto = texto;
 	}
 	
+	public AvaliacaoDTO() {
+		
+	}
+	
 	public Avaliacao paraAvaliacao(Aluno aluno) {
 		return new Avaliacao(titulo, texto, aluno);
 	}
